@@ -422,7 +422,7 @@ export default function Home() {
     try {
       const response = await axios({
         method: "post",
-        url: "https://ai-smartboard-backend.onrender.com/calculate",
+        url: "https://ai-smartboard-backend.onrender.com/calculate/explain",
         data: {
           image: canvas.toDataURL("image/png"),
           question: "Explain the solution to this problem",
@@ -462,7 +462,7 @@ export default function Home() {
     try {
       const response = await axios({
         method: "post",
-        url: "https://ai-smartboard-backend.onrender.com/calculate",
+        url: "https://ai-smartboard-backend.onrender.com/calculate/explain",
         data: {
           image: canvas.toDataURL("image/png"),
           question: userQuestion,
