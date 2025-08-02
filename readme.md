@@ -215,6 +215,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Sieam Shahriare**
-- GitHub: [@SieamShahriare](https://github.com/SieamShahriare)
+- GitHub: [@07-Umar](https://github.com/07-Umar)
 
 **Happy Drawing! 🎨**
