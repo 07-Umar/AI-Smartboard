@@ -24,5 +24,5 @@ async def explain(data: ExplanationRequest):
     image_data = base64.b64decode(data.image.split(",")[1])
     image_bytes = BytesIO(image_data)
     image = Image.open(image_bytes)
-    explanation = get_explanation(image, data.question, data.history)
+    explanation = await get_explanation(image, data.question, data.history)
     return {"message": "Explanation generated", "data": explanation, "status": "success"}
