@@ -50,7 +50,7 @@ def analyze_image(img: Image, dict_of_vars: dict):
     return answers
     
 
-def get_explanation(img: Image, question: str, history: list[dict]):
+async def get_explanation(img: Image, question: str, history: list[dict]):
     model = genai.GenerativeModel(model_name="gemini-2.5-flash")
     
     # Build chat history
